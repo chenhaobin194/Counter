@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_conut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.counter.conut">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--文本框-->
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:background="#999"
+            android:layout_weight="3"
+            android:id="@+id/textView" />
+
+        <!--第一行-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+
+
+        </LinearLayout>
+        <!--第二行-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <Button
+                android:text="@string/ac"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:id="@+id/ac"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="c"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/aad"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="@string/chuyi"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/chuyi"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+            <Button
+                android:text="@string/cheng"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/chengyi"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+        </LinearLayout>
+        <!--第三行-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:text="@string/_7"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="@string/_8"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="@string/_9"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/neight"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+            <Button
+                android:text="@string/jian"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                android:id="@+id/jian"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+        </LinearLayout>
+        <!--第四行-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <Button
+                android:text="@string/_4"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="@string/_55"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="@string/_6"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+            <Button
+                android:text="@string/jia"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/jia"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+
+        </LinearLayout>
+        <!--56行分左右-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="4">
+            <!--56行左边-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="289dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:weightSum="2"
+
+           >
+            <!--左边第5行-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:weightSum="3"
+              >
+
+                <Button
+                    android:text="@string/_1"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:id="@+id/one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <Button
+                    android:text="@string/_2"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:id="@+id/two"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    />
+
+                <Button
+                    android:text="@string/_3"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:id="@+id/three"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    />
+
+            </LinearLayout>
+            <!--左边第6行-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <Button
+                    android:text="@string/_00"
+
+                    android:textSize="20sp"
+
+                    android:id="@+id/zero"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:text="@string/point"
+                    android:textSize="20sp"
+                    android:layout_weight="2"
+                    android:id="@+id/point"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    />
+
+            </LinearLayout>
+
+            </LinearLayout>
+            <!--56行右边-->
+            <Button
+                android:text="@string/dengyu1"
+                android:id="@+id/dengyu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

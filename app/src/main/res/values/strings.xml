@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="mc">mc</string>
+    <string name="m">m+</string>
+    <string name="cheng">×</string>
+    <string name="_7">7</string>
+    <string name="jian">-</string>
+    <string name="m_jian">m-</string>
+    <string name="mr">mr</string>
+    <string name="ac">ac</string>
+    <string name="jiajian">+/-</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="jia">+</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="point">.</string>
+    <string name="_0">0</string>
+    <string name="dengyu">=</string>
+    <string name="_5">5</string>
+    <string name="chuyi">÷</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_55">5</string>
+    <string name="_00">0</string>
+    <string name="dengyu1">=</string>
+</resources>
